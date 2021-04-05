@@ -26,6 +26,8 @@ app.use(cors());
 //Custom routes
 // const workflowRoutes = require("./routes/workflow");
 const promiseRoutes = require("./routes/promise");
+const flatRoutes = require("./routes/flat");
+
 // const callbackRoutes = require("./routes/callback");
 
 
@@ -35,6 +37,8 @@ const promiseRoutes = require("./routes/promise");
 //Routes configuration
 // app.use("/", workflowRoutes);
 app.use("/", promiseRoutes);
+app.use("/flat", flatRoutes);
+
 // app.use("/", callbackRoutes);
 
 

@@ -100,7 +100,7 @@ let paymentInitiated = false
 var workflow = Workflows.create(function (ctx) {
     // ACTION #0
     console.log("Attach your expense report")
-    // skip one action ('ACTION #1')
+    // skip one action ('ACTION #1') 
 
     if (!attached) {
         attached = true;
